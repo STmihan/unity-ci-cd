@@ -18,5 +18,6 @@ public class BuildContext : FrostingContext
     {
         obj.type = Type;
         obj.target = Constants.ProjectName;
+        obj.path = Constants.OutPath;
     }
 }
